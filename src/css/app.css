@@ -1,0 +1,22 @@
+@import "tailwindcss/base";
+@import "./base";
+
+@import "tailwindcss/components";
+@import "./components";
+
+@import "tailwindcss/utilities";
+.colorFonf_1{
+    background-color: #F8F8FE;
+}
+.colorFonf_2{
+    background-color: #585989;
+}
+.colorFonf_3{
+    background-color: #070439;
+}
+.color_white{
+    fill: white;
+}
+.bottom_logo{
+    bottom: -30px;
+}

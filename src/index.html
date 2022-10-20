@@ -1,0 +1,114 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>@tailwindcss/forms examples</title>
+  <link rel="stylesheet" href="/css/app.css" />
+  <link rel="icon" type="image/x-icon" href="/static/favicon.ico" />
+  <script src="https://kit.fontawesome.com/66caa73ff9.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <header class="flex justify-between my-10 mx-10">
+    <img src="./static/logo.svg" class="w-20 desktop:w-auto" alt="logo_fylo">
+    <nav>
+      <a>Feature</a>
+      <a class="ml-4  desktop:ml-8">Team</a>
+      <a class="ml-4  desktop:ml-8">sign in</a>
+    </nav>
+  </header>
+  <section class="flex flex-col-reverse mx-10 desktop:flex-row ">
+    <div class="flex justify-center align-middle flex-col">
+      <h1 class="text-4xl mb-8">All your files in one secure location, accessible anywhere.</h1>
+      <p class="pr-28 mb-8"> Fylo stores your most important files in one secure location.
+        Access them wherever you need, share and collaborate with friends,family, and co-workers.</p>
+      <div class="flex mb-10 desktop:mb-0">
+        <input type="text" placeholder="Enter your email" class="border-1 w-2/4 rounded-sm">
+        <button class="desktop:ml-6 bg-blue-600 py-3 desktop:px-8 rounded-lg text-white px-6 ml-4">Get started</button>
+      </div>
+    </div>
+    <img src="./static/illustration-1.svg" class="w-3/5 " alt="fylo_2">
+  </section>
+  <section>
+    <img src="./static/bg-curve-desktop.svg" alt="cover_background">
+    <div class="flex colorFonf_1 desktop:flex-row-reverse flex-col">
+      <img src="./static//illustration-2.svg" class="w-2/4">
+      <div class="mx-10">
+        <h2 class="text-4xl font-semibold my-10">Stay productive, wherever you are</h2>
+        <p class="text-xl pr-4 my-4"> Never let location be an issue when accessing your files. Fylo has you
+          covered for all of your file storage needs.
+        </p>
+        <br>
+        <p class="text-xl pr-4">
+          Securely share files and folders with friends, family and colleagues for
+          live collaboration. No email attachments required!
+        </p>
+        <div class="bg-white rounded-lg w-80  p-4 my-10 shadow-xl">
+          <img src="./static/icon-quotes.svg">
+          <p class="my-4">
+            Fylo has improved our team productivity by an order of magnitude. Since
+            making the switch our team has become a well-oiled collaboration machine.
+          </p>
+          <div class="flex">
+            <img src="./static/avatar-testimonial.jpg" alt="profil_photo" class="w-8 h-8 rounded-full">
+            <div class="ml-2">
+              <strong class="leading-none">Kyle Burton</strong>
+              <p class="leading-none font-light text-xs">Founder & CEO, Huddle</p>
+            </div>
+          </div>
+        </div>
+        <div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="flex colorFonf_2 pb-16 pt-10 flex-col desktop:flex-row">
+    <div class=" mx-10 w-2/4">
+      <h2 class="text-white text-3xl mb-4">Get early access today</h2>
+      <p class="text-white desktop:pr-20">
+        It only takes a minute to sign up and our free starter tier is extremely generous.
+        If you have any questions, our support team would be happy to help you.
+      </p>
+    </div>
+    <div class="flex flex-col ml-10 desktop:ml-20 2/4">
+      <input type="text" placeholder="email@example.com"
+        class="border-2 desktop:w-96 rounded-lg shadow-xl w-3/4 mt-6 mb-2 desktop:my-0">
+      <button class="bg-blue-600 py-3  rounded-lg w-2/4 mt-2 text-white">Get started</button>
+    </div>
+  </section>
+  <footer class=" flex flex-col h-auto pb-16 pt-20 desktop:flex-row colorFonf_3">
+    <div class="flex flex-col my-4 desktop:my-0 relative">
+      <svg class="mb-4 color_white absolute bottom_logo">
+        <use xlink:href="./static/logo_footer.svg#logo" class="color_white"></use>
+      </svg>
+      <div class="flex mb-4">
+        <img src="./static/icon-phone.svg" alt="phone_icon">
+        <p class="text-white ml-4">phone:+06 06 06 06 06</p>
+      </div>
+      <div class="flex ">
+        <img src="./static/icon-email.svg" alt="email_icon">
+        <p class="text-white ml-4">example@fylo.com</p>
+      </div>
+    </div>
+    <div class="flex flex-col my-4 desktop:my-0">
+      <p class="mb-1">About us</p>
+      <p class="mb-1">Jobs</p>
+      <p class="mb-1">Press</p>
+      <p class="mb-1">Blog</p>
+    </div>
+    <div class="flex flex-col my-4 desktop:my-0">
+      <p class="mb-1">Contact us</p>
+      <p class="mb-1">Terms</p>
+      <p class="mb-1">Privacy</p>
+    </div>
+    <div>
+      <i class="fa fa-facebook text-white rounded-full border-2 w-8 h-8 flex justify-center items-center"></i>
+      <i class="fa fa-instagram text-white ml-6 rounded-full border-2 w-8 h-8 flex justify-center items-center"></i>
+      <i class="fa fa-twitter text-white ml-6 rounded-full border-2 w-8 h-8 flex justify-center items-center"></i>
+    </div>
+  </footer>
+</body>
+
+</html>
